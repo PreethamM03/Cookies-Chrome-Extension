@@ -1,0 +1,12 @@
+{
+  "name": "Cookie Clearer",
+  "manifest_version": 3,
+  "version": "1.0",
+  "permissions": ["cookies"],
+  "host_permissions": ["<all_urls>"],
+  "action": {
+    "default_popup": "popup.html",
+  "web_accessible_resources": ["logo.png"],
+  "default_icon": "logo2.png"
+  }
+}
